@@ -1,0 +1,38 @@
+<Task type="AAT" task_scored="0" aat_min_time="14400" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+	<Point type="Start">
+		<Waypoint altitude="160" name="148Landau">
+			<Location latitude="49.175283" longitude="8.134717"/>
+		</Waypoint>
+		<ObservationZone length="20000.0" type="Line"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="288" name="052Bundenthal">
+			<Location latitude="49.093333" longitude="7.791383"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="15000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="161" name="194Oestringen">
+			<Location latitude="49.220833" longitude="8.711383"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="15000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="98" name="268Weinheim">
+			<Location latitude="49.539167" longitude="8.649717"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="20000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="224" name="220Schmelz">
+			<Location latitude="49.445833" longitude="6.85805"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="30000.0"/>
+	</Point>
+	<Point type="Finish">
+		<Waypoint altitude="160" name="148Landau">
+			<Location latitude="49.175283" longitude="8.134717"/>
+		</Waypoint>
+		<ObservationZone radius="5000" type="Cylinder"/>
+	</Point>
+</Task>
